@@ -1,0 +1,74 @@
+h1 {
+	background-color: gold;
+}
+
+h2 {
+	background-color: gold;
+}
+
+p {
+	background-color: gold;
+}
+
+h3 {
+	background-color: gold;
+}
+
+html {
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: royalblue;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e009f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #d89b00;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.cActive, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
